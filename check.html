@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/general1.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="header-name" href="#">
+        <p>
+          <span class="tag mavuno-tag">MAVUNO</span
+          ><span class="tag market-tag">
+            <ion-icon name="storefront-outline"></ion-icon>
+            MARKET</span
+          >
+        </p>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">HELP</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">LOGIN/SIGNUP</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="check-nav">
+          <div class="check--nav">
+            <a href="#" class="check-btn">1 SHOPPING CART</a>
+            <div>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="check--nav">
+            <a href="#" class="check-btn-2">2 CHECKOUT DETAILS</a>
+            <div>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="check--nav">
+            <a href="#" class="check-btn">3 ORDER COMPLETE</a>
+            <div>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="check-container">
+          <p class="check-text">
+            Orders under Kshs 2,000 do not qualify for home delivery: please use
+            our Collect points. Orders over Kshs 5,000 qualify for FREE delivery
+            (in Nairobi only).
+          </p>
+          <div class="returning-customer">
+            <div>
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+            <div>
+              <p>Returning Customer?</p>
+            </div>
+            <div>
+              <a href="#" class="returning-customer-link"
+                >Click here to login</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="check-container">
+          <div class="check-out-details">
+            <div class="signup-section">
+              <h3 class="check-header">YOUR DETAILS</h3>
+              <form class="cta-check">
+                <div>
+                  <label for="first-name">First Name</label>
+                  <input
+                    id="first-name"
+                    type="text"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="Last-name">Last Name</label>
+                  <input id="last-name" type="text" name="last-name" required />
+                </div>
+                <div>
+                  <label for="phone-number">Phone No.</label>
+                  <input
+                    id="phone-number"
+                    type="number"
+                    name="phone-number"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input id="email" type="email" name="email" required />
+                </div>
+              </form>
+              <h3 class="check-header">DELIVERY DETAILS</h3>
+              <form class="cta-check">
+                <div>
+                  <label for="full-name"
+                    >Deliver to: First name (optional)</label
+                  >
+                  <input
+                    id="first-name"
+                    type="text"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="full-name"
+                    >Deliver to: Last name (optional)</label
+                  >
+                  <input id="last-name" type="text" name="last-name" required />
+                </div>
+                <div>
+                  <label for="phone-number">Deliver to: Phone * </label>
+                  <input
+                    id="phone-number"
+                    type="text"
+                    name="phone-number"
+                    required
+                  />
+                </div>
+              </form>
+              <h3 class="check-header">Country</h3>
+              <p>Kenya</p>
+              <form class="cta-check">
+                <div>
+                  <label for="street-address">Street address *</label>
+                  <input
+                    id="street-address"
+                    type="text"
+                    name="street-address"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="full-name">House</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Apartment (optional)"
+                    name="full-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="full-name">Town / City * </label>
+                  <input id="Town" type="text" name="town" required />
+                </div>
+                <div>
+                  <label for="select-where">County *</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and Family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="">Others</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="order-section">
+              <div class="order-text-box">
+                <h3 class="check-header order-header">YOUR ORDER</h3>
+                <div class="order-paragraph">
+                  <div>
+                    <p class="your-order-text">Product</p>
+                  </div>
+                  <div>
+                    <p class="your-order-text">Subtotal</p>
+                  </div>
+                </div>
+                <div class="order-paragraph">
+                  <div>
+                    <p class="your-order-text">Onion</p>
+                  </div>
+                  <div>
+                    <p class="your-order-text">ksh 130</p>
+                  </div>
+                </div>
+                <div class="order-paragraph">
+                  <div>
+                    <p class="your-order-text">Subtotal</p>
+                  </div>
+                  <div>
+                    <p class="your-order-text">ksh 130</p>
+                  </div>
+                </div>
+                <h3 class="check-header">HOW WOULD YOU LIKE TO ORDER?</h3>
+                <p class="your-order-text">Delivery:Ksh 100</p>
+                <p class="your-order-text">Kasarani Collection point</p>
+                <p class="your-order-text">Muthaiga Collection point</p>
+                <p class="your-order-text">Total</p>
+                <h3 class="check-header">
+                  HOW WOULD YOU LIKE TO PAY FOR YOUR ORDER
+                </h3>
+                <p class="your-order-text">Mpesa</p>
+                <p class="your-order-text">
+                  iPay (Credit Card Payments - Trial)
+                </p>
+                <p class="your-order-text">Pesapal (Credit Card Payments)</p>
+                <button class="your-order-btn">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
